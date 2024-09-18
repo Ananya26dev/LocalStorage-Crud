@@ -75,6 +75,7 @@ const Form = () => {
                   value={contactName}
                   onChange={(e) => setContactName(e.target.value)}
                   placeholder="Enter Contact Name"
+                  required
                 />
               </div>
               <div className="mb-3">
@@ -84,6 +85,7 @@ const Form = () => {
                   value={contactEmail}
                   onChange={(e) => setContactEmail(e.target.value)}
                   placeholder="Enter Contact Email ID"
+                  required
                 />
               </div>
               <div className="mb-3">
@@ -92,6 +94,7 @@ const Form = () => {
                   value={contactMessage}
                   onChange={(e) => setContactMessage(e.target.value)}
                   placeholder="Write  Message Here"
+                  required
                 ></textarea>
               </div>
               <button className="btn btn-primary" type="submit">

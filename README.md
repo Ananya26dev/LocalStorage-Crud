@@ -1,8 +1,3 @@
 # LocalStorage Crud using Form & Table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates a simple Contact Management system built with React. Users can create, read, update, and delete (CRUD) contact entries using a form. Each entry contains a contact's name, email, and message, which are displayed in a dynamic table. The data is stored persistently in the browser’s LocalStorage, ensuring the information is saved across sessions. The table allows users to edit or delete contacts, with real-time updates reflected in both the UI and LocalStorage.
